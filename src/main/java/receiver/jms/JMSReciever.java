@@ -7,7 +7,7 @@ import javax.jms.JMSException;
 import org.apache.spark.storage.StorageLevel;
 import org.apache.spark.streaming.receiver.Receiver;
 
-import activemq.JMSActiveMQReciever;
+import receiver.jms.activemq.JMSActiveMQReciever;
 
 public class JMSReciever extends Receiver<String> {
 

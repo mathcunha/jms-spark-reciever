@@ -1,4 +1,4 @@
-package activemq;
+package receiver.jms.activemq;
 
 import java.util.Map;
 import java.util.function.Consumer;
